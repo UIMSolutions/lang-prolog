@@ -1,2 +1,2 @@
-# uim-prolog
+# lang-prolog
 Prolog on D
