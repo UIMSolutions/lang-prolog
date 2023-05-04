@@ -1,9 +1,26 @@
 {
-	"authors": [
-		"Ozan"
+	"name": "lang-prolog",
+	"description": "D library for Fortran projects",
+  "authors": [
+    "Sicherheitsschmiede",
+    "Ozan Nurettin Süel"
+  ],
+  "copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+  "license": "Apache-2.0",
+	"targetType": "library",
+	"dependencies": {
+			"vibe-d": "~>0.9.5"
+	},
+	"sourcePaths": [
+			"../../LIBS/uim-core",
+			"../../LIBS/uim-oop",
+			"../../LIBS/uim-compilers",
+			"./"
 	],
-	"copyright": "Copyright © 2020, Ozan",
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "uim-prolog"
+	"importPaths": [
+			"../../LIBS/uim-core",
+			"../../LIBS/uim-oop",
+			"../../LIBS/uim-compilers",
+			"./"
+	]
 }
